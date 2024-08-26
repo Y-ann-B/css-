@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+nav img {
+  width: 268px;
+  height: 68px;
+  margin-left: 2rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: 100;
+  opacity: 0.7;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+nav ul li a:active {
+  color: #00b39b;
+}
+nav ul li a:hover {
+  color: #00b39b;
+}/*# sourceMappingURL=edit.css.map */
