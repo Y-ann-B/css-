@@ -17,7 +17,6 @@ nav {
   z-index: 100;
   background-color: white;
   background: hsla(0, 0%, 100%, 0.98);
-  box-shadow: inset;
 }
 nav img {
   width: 268px;
@@ -99,13 +98,94 @@ header h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
-  width: 70%;
-  gap: 10px;
+  width: 60%;
+  gap: 25px;
 }
 .class-2 div {
   display: flex;
   padding: 2em 2em 0;
   flex-direction: column;
-  background-color: #00ccb1;
   margin: 8rem 0 3rem;
+}
+
+#first-box {
+  background-color: #00ccb1;
+  height: 50vh;
+  border-radius: 20px;
+}
+#first-box img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1em;
+}
+#first-box p {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+}
+#first-box h2 {
+  font-weight: 400;
+  color: white;
+  margin-bottom: 1em;
+}
+
+#second-box {
+  background-color: #3d83df;
+  height: 50vh;
+  border-radius: 20px;
+}
+#second-box img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1em;
+}
+#second-box p {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+}
+#second-box h2 {
+  font-weight: 400;
+  color: white;
+  margin-bottom: 1em;
+}
+
+#third-box {
+  background-color: #1b2734;
+  height: 50vh;
+  border-radius: 20px;
+}
+#third-box img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1em;
+}
+#third-box p {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+}
+#third-box h2 {
+  font-weight: 400;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.class-3 {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 5em;
+}
+.class-3 div {
+  display: flex;
+  width: 50%;
+}
+.class-3 div h1 {
+  color: #00b39b;
+  font-weight: 300;
+  font-size: 2em;
+}
+.class-3 img {
+  width: 100%;
 }/*# sourceMappingURL=edit.css.map */
